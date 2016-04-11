@@ -35,7 +35,6 @@ gulp.task('styles', function() {
 
 gulp.task('sync', function() {
   browserSync.init({
-    // proxy: 'kathrinalbers.dev'
     proxy: 'local.wordpress.dev',
     notify: false
   });
