@@ -13,8 +13,8 @@
     get_template_part( 'layouts/content', get_post_type() );
   endwhile;
     the_posts_pagination( array(
-      'prev_text'          => '<-',
-      'next_text'          => '->'
+      'prev_text' => '<-',
+      'next_text' => '->'
     ) );
   else :
     get_template_part( 'layouts/content', 'none' );

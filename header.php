@@ -12,9 +12,9 @@
     <nav id="main-nav" role="navigation">
       <?php
       wp_nav_menu(array(
-        'container'       => false,
-        'menu_class'      => 'nav top-nav cf',
-        'theme_location'  => 'main'
+        'container'      => false,
+        'menu_class'     => 'nav top-nav cf',
+        'theme_location' => 'main'
       ));
       ?>
     </nav>
